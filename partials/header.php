@@ -37,20 +37,20 @@ include("partials/connect.php");
                 <div class="menu-desktop">
                     <ul class="main-menu">
                         <li class="active-menu">
-                            <a href="index.html">Home</a>
+                            <a href="index.php">Home</a>
                             <ul class="sub-menu">
-                                <li><a href="index.html">Homepage 1</a></li>
+                                <li><a href="index.php">Homepage 1</a></li>
                                 <li><a href="home-02.html">Homepage 2</a></li>
                                 <li><a href="home-03.html">Homepage 3</a></li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href="product.html">Shop</a>
+                            <a href="product.php">Shop</a>
                         </li>
 
                         <li class="label1" data-label1="hot">
-                            <a href="shoping-cart.html">Features</a>
+                            <a href="cart.php">Features</a>
                         </li>
 
                         <li>
@@ -58,11 +58,11 @@ include("partials/connect.php");
                         </li>
 
                         <li>
-                            <a href="about.html">About</a>
+                            <a href="about.php">About</a>
                         </li>
 
                         <li>
-                            <a href="contact.html">Contact</a>
+                            <a href="contact.php">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -112,7 +112,7 @@ include("partials/connect.php");
     <div class="wrap-header-mobile">
         <!-- Logo moblie -->
         <div class="logo-mobile">
-            <a href="index.html"><img src="images/icons/logo-01.png" alt="IMG-LOGO" /></a>
+            <a href="index.php"><img src="images/icons/logo-01.png" alt="IMG-LOGO" /></a>
         </div>
 
         <!-- Icon header -->
@@ -187,7 +187,7 @@ include("partials/connect.php");
             <li>
                 <a href="index.html">Home</a>
                 <ul class="sub-menu-m">
-                    <li><a href="index.html">Homepage 1</a></li>
+                    <li><a href="index.php">Homepage 1</a></li>
                     <li><a href="home-02.html">Homepage 2</a></li>
                     <li><a href="home-03.html">Homepage 3</a></li>
                 </ul>
@@ -197,11 +197,11 @@ include("partials/connect.php");
             </li>
 
             <li>
-                <a href="product.html">Shop</a>
+                <a href="product.php">Shop</a>
             </li>
 
             <li>
-                <a href="shoping-cart.html" class="label1 rs1" data-label1="hot">Features</a>
+                <a href="cart.php" class="label1 rs1" data-label1="hot">Features</a>
             </li>
 
             <li>
@@ -209,11 +209,11 @@ include("partials/connect.php");
             </li>
 
             <li>
-                <a href="about.html">About</a>
+                <a href="about.php">About</a>
             </li>
 
             <li>
-                <a href="contact.html">Contact</a>
+                <a href="contact.php">Contact</a>
             </li>
         </ul>
     </div>
@@ -297,7 +297,7 @@ include("partials/connect.php");
                 <div class="header-cart-total w-full p-tb-40">Total: $75.00</div>
 
                 <div class="header-cart-buttons flex-w w-full">
-                    <a href="shoping-cart.html" class="
+                    <a href="cart.php" class="
                   flex-c-m
                   stext-101
                   cl0
@@ -312,7 +312,7 @@ include("partials/connect.php");
                         View Cart
                     </a>
 
-                    <a href="shoping-cart.html" class="
+                    <a href="cart.php" class="
                   flex-c-m
                   stext-101
                   cl0
