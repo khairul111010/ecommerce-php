@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+include("adminpartials/sessions.php");
 include("adminpartials/head.php");
 ?>
 
