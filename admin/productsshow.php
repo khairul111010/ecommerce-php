@@ -31,7 +31,19 @@ include("adminpartials/aside.php");
       </section>
       <!-- form -->
 
-      
+      <?php
+                include('../partials/connect.php');
+                $sql = "SELECT * from products";
+                $resutls = $connect->query($sql);
+                while($final = $resutls->fetch_assoc()){?>
+                <a href="proshow.php?pro_id=<?php echo $final['id']?>">
+                    <h3><?php echo $final['id'] ?>: <?php echo $final['name']?></h3>
+                    <hr><br></a>
+
+                    <?php }
+                
+                
+                ?>
 
 
 
