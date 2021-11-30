@@ -29,7 +29,7 @@
         <a href="categories.php">
           <i class="fa fa-th"></i> <span>Categories</span>
         </a>
-        <a href="products.php">
+        <a href="productsshow.php">
           <i class="fa fa-th"></i> <span>Products</span>
         </a>
         <a href="adminpartials/logout.php">

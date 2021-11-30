@@ -19,8 +19,10 @@ $sql = "INSERT INTO products (name,price,picture,description,category_id) VALUES
 
 if ($connect->query($sql) === TRUE) {
     echo "New record created successfully";
+    
+
   } else {
     echo "Error: " . $sql . "<br>" . $connect->error;
   }
-
+  header('location: productsshow.php');
 ?>
